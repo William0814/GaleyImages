@@ -3,34 +3,33 @@ body {
   border: 3px solid white;
   padding: 10px;
   border-radius: 20px;
+}
+header {
+  text-align: center;
+}
 
-  header {
-    text-align: center;
-  }
+#titulo {
+  text-align: center;
+  font-size: 40px;
+  background-color: blueviolet;
+  border-radius: 30px;
+  width: 50%;
+  background: linear-gradient(top, blueviolet, rgb(124, 210, 212));
+  background: -webkit-linear-gradient(top, blueviolet, rgb(124, 210, 212));
+  background: -moz-linear-gradient((top, blueviolet, rgb(124, 210, 212)));
+  background: -o-linear-gradient(top, blueviolet, rgb(124, 210, 212));
+  -webkit-border-radius: 30px;
+  margin: auto;
+  padding: 10px;
+  color: white;
+}
 
-  #titulo {
-    text-align: center;
-    font-size: 40px;
-    background-color: blueviolet;
-    border-radius: 30px;
-    width: 50%;
-    background: linear-gradient(top, blueviolet, rgb(124, 210, 212));
-    background: -webkit-linear-gradient(top, blueviolet, rgb(124, 210, 212));
-    background: -moz-linear-gradient((top, blueviolet, rgb(124, 210, 212)));
-    background: -o-linear-gradient(top, blueviolet, rgb(124, 210, 212));
-    -webkit-border-radius: 30px;
-    margin: auto;
-    padding: 10px;
-    color: white;
-  }
-
-  .image {
-    width: 200px;
-    height: 150px;
-    padding: 5px;
-    border: 2px solid white;
-    margin: 10px 10px 10px;
-    border-radius: 15px;
-    float: left;
-  }
-
+.image {
+  width: 200px;
+  height: 150px;
+  padding: 5px;
+  border: 2px solid white;
+  margin: 10px 10px 10px;
+  border-radius: 15px;
+  float: left;
+}
